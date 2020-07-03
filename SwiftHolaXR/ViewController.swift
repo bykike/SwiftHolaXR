@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let label = UILabel(frame: CGRect(x: 0, y: 60, width: view.bounds.width, height: 50))
-        label.text = "Hola mundo"
+        label.text = "Hola mundo, cómo vas?"
         label.font = UIFont.boldSystemFont(ofSize: 30)
         label.textAlignment = .center
         label.textColor = UIColor.darkText
