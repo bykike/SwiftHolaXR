@@ -23,5 +23,12 @@ class ViewController: UIViewController {
     }
 
 
+
+          @IBAction func Cancelar(sender: AnyObject) {
+                 dismiss(animated: false, completion: nil)
+          }
+
+
+
 }
 
