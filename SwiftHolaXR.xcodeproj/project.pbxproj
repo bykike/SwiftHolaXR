@@ -14,6 +14,7 @@
 		868EC7EC232CEF8100089D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868EC7EA232CEF8100089D3F /* LaunchScreen.storyboard */; };
 		868EC7F7232CEF8200089D3F /* SwiftHolaXRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EC7F6232CEF8200089D3F /* SwiftHolaXRTests.swift */; };
 		868EC802232CEF8200089D3F /* SwiftHolaXRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EC801232CEF8200089D3F /* SwiftHolaXRUITests.swift */; };
+		86EC575D24C4A06F00EF3B55 /* siri.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86EC575C24C4A06F00EF3B55 /* siri.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		868EC7FD232CEF8200089D3F /* SwiftHolaXRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHolaXRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		868EC801232CEF8200089D3F /* SwiftHolaXRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHolaXRUITests.swift; sourceTree = "<group>"; };
 		868EC803232CEF8200089D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86EC575C24C4A06F00EF3B55 /* siri.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = siri.jpeg; path = imagenes/siri.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				868EC7E1232CEF8000089D3F /* AppDelegate.swift */,
 				868EC7E3232CEF8000089D3F /* ViewController.swift */,
+				86EC575C24C4A06F00EF3B55 /* siri.jpeg */,
 				868EC7E5232CEF8000089D3F /* Main.storyboard */,
 				868EC7E8232CEF8100089D3F /* Assets.xcassets */,
 				868EC7EA232CEF8100089D3F /* LaunchScreen.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86EC575D24C4A06F00EF3B55 /* siri.jpeg in Resources */,
 				868EC7EC232CEF8100089D3F /* LaunchScreen.storyboard in Resources */,
 				868EC7E9232CEF8100089D3F /* Assets.xcassets in Resources */,
 				868EC7E7232CEF8000089D3F /* Main.storyboard in Resources */,
