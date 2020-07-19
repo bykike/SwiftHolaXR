@@ -9,7 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var Alerta: UIButton!
+    
+    @IBAction func MuestraAlerta(_ sender: Any) {
+        
+        let alerta = UIAlertController(title: "Mi título", message: "Mi mensaje para el usuario.", preferredStyle: .alert)
+        alerta.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
+        self.present(alerta, animated: true)
+    }
+    
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -22,11 +36,9 @@ class ViewController: UIViewController {
         view.addSubview(label)
     }
 
-
-
-          @IBAction func Cancelar(sender: AnyObject) {
+    @IBAction func FCancelar(sender: AnyObject) {
                  dismiss(animated: false, completion: nil)
-          }
+    }
 
 
 
